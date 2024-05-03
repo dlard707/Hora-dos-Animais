@@ -7,7 +7,7 @@ app.use(express.static("public"));
 app.get("/", (req, res) => {
   res.send();                                                                           
 });
-kjhj                   
+                 
 app.listen(3000, () => {
   console.log("servidor iniciado na porta 3000");
 });
